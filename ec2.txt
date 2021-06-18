@@ -1,0 +1,107 @@
+{
+    "Groups": [],
+    "Instances": [
+        {
+            "AmiLaunchIndex": 0,
+            "ImageId": "ami-0ad704c126371a549",
+            "InstanceId": "i-08dbd5bd5c26361e4",
+            "InstanceType": "t2.micro",
+            "KeyName": "lalita",
+            "LaunchTime": "2021-06-18T09:44:59+00:00",
+            "Monitoring": {
+                "State": "disabled"
+            },
+            "Placement": {
+                "AvailabilityZone": "ap-south-1a",
+                "GroupName": "",
+                "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-44-102.ap-south-1.compute.internal",
+            "PrivateIpAddress": "172.31.44.102",
+            "ProductCodes": [],
+            "PublicDnsName": "",
+            "State": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-ba0108d2",
+            "VpcId": "vpc-83d232e8",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [],
+            "ClientToken": "1c59b89d-ec9b-49b5-abeb-cee9d7e0e08b",
+            "EbsOptimized": false,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+                {
+                    "Attachment": {
+                        "AttachTime": "2021-06-18T09:44:59+00:00",
+                        "AttachmentId": "eni-attach-0805954e2374a8151",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attaching",
+                        "NetworkCardIndex": 0
+                    },
+                    "Description": "",
+                    "Groups": [
+                        {
+                            "GroupName": "lalita-sg",
+                            "GroupId": "sg-0b7d92a57fb380f36"
+                        }
+                    ],
+                    "Ipv6Addresses": [],
+                    "MacAddress": "02:e6:68:13:3d:b4",
+                    "NetworkInterfaceId": "eni-0b7f31c6d249af10c",
+                    "OwnerId": "129609417156",
+                    "PrivateDnsName": "ip-172-31-44-102.ap-south-1.compute.internal",
+                    "PrivateIpAddress": "172.31.44.102",
+                    "PrivateIpAddresses": [
+                        {
+                            "Primary": true,
+                            "PrivateDnsName": "ip-172-31-44-102.ap-south-1.compute.internal",
+                            "PrivateIpAddress": "172.31.44.102"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Status": "in-use",
+                    "SubnetId": "subnet-ba0108d2",
+                    "VpcId": "vpc-83d232e8",
+                    "InterfaceType": "interface"
+                }
+            ],
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+                {
+                    "GroupName": "lalita-sg",
+                    "GroupId": "sg-0b7d92a57fb380f36"
+                }
+            ],
+            "SourceDestCheck": true,
+            "StateReason": {
+                "Code": "pending",
+                "Message": "pending"
+            },
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+                "CoreCount": 1,
+                "ThreadsPerCore": 1
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "open"
+            },
+            "MetadataOptions": {
+                "State": "pending",
+                "HttpTokens": "optional",
+                "HttpPutResponseHopLimit": 1,
+                "HttpEndpoint": "enabled"
+            },
+            "EnclaveOptions": {
+                "Enabled": false
+            }
+        }
+    ],
+    "OwnerId": "129609417156",
+    "ReservationId": "r-0993e5595eef7c604"
+}

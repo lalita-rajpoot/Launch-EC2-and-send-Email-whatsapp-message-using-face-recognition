@@ -1,0 +1,18 @@
+{
+    "AvailabilityZone": "ap-south-1a",
+    "CreateTime": "2021-06-18T09:45:01+00:00",
+    "Encrypted": false,
+    "Size": 5,
+    "SnapshotId": "",
+    "State": "creating",
+    "VolumeId": "vol-0503c7758e5873ce5",
+    "Iops": 100,
+    "Tags": [
+        {
+            "Key": "face",
+            "Value": "volume"
+        }
+    ],
+    "VolumeType": "gp2",
+    "MultiAttachEnabled": false
+}
